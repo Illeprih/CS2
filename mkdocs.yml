@@ -1,1 +1,14 @@
-site_name: My Docs
+site_name: Mapy
+
+theme:
+  name: material
+
+markdown_extensions:
+  - toc:
+      permalink: true
+
+nav:
+  - Anubis: anubis.md
+  - Dust 2: dust_2.md
+  - Inferno: inferno.md
+  - Nuke: nuke.md
