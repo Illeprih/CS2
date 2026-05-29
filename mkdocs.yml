@@ -2,10 +2,20 @@ site_name: Mapy
 
 theme:
   name: material
+  features:
+    - content.images.zoom
 
 markdown_extensions:
   - toc:
       permalink: true
+  - attr_list
+
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js
+  - js/lightbox-init.js
+
+extra_css:
+  - https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css
 
 nav:
   - Anubis: anubis.md
