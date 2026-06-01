@@ -29,16 +29,16 @@
 
   Zároveň není moc ideální skákat na auto dokud není čistý sandbag. Dá se tam hrát úhel, kde CT není vidět dokud nevyskočíte nahoru a má tam dost free kill.  
 
-  ![](images/inferno/t/b/wrong_sandbag_peek_1.avif){ .glightbox data-gallery="wrong_sandbag_peek"}
+  ![](images/inferno/t/b/wrong_sandbag_peek_1.avif){ .glightbox data-gallery="wrong_sandbag_peek" }
 
-  ![](images/inferno/t/b/wrong_sandbag_peek_2.avif){ .glightbox data-gallery="wrong_sandbag_peek"}
+  ![](images/inferno/t/b/wrong_sandbag_peek_2.avif){ .glightbox data-gallery="wrong_sandbag_peek" }
 
   
   Celkově se u auta není dobrý extra zdržovat, dá se tam hodit spousta granátů, flashů atd., lepší je zůstávat spíš u zíďky, nebo vyhodit někoho nahoru. To je jednak dobrý off-angle a jednak ta malá stříška blokuje většinu flashů, takže když chtějí CT získat zpět banán, je velká pravděpodobnost, že to CT vyběhne s flashem ze široka a nebude vás tam čekat.  
 
-  ![](images/inferno/t/b/halfwall_boost_peek.avif){ .glightbox data-gallery="halfwall_peek"}
+  ![](images/inferno/t/b/halfwall_boost_peek.avif){ .glightbox data-gallery="halfwall_peek" }
 
-  ![](images/inferno/t/b/halfwall_boost_flash.avif){ .glightbox data-gallery="halfwall_peek"}
+  ![](images/inferno/t/b/halfwall_boost_flash.avif){ .glightbox data-gallery="halfwall_peek" }
 
   Když CT stáhnou do situ, jeden může rotovat zpátky na mid a pomoct dobýt top mid, ale pozor, ještě u barelů vás může CT slyšet dupat. Zároveň není od věci občas udělat u auta nějaký bordel a snažit se z CTček vytáhnout smoky. Dá se například hodit granát na CT nebo coffiny.  
 
@@ -82,7 +82,75 @@
 
 #### Dobytí top midu
 
+  Dobytí top midu není nic složitého. CT mají velice málo pozic, ze kterých se dá top mid držet, a všechny se dají snadno neutralizovat pomocí granátů.
+  
+<div class="img-grid-2" markdown>
+
+![](images/inferno/t/top_mid/ct_hold.avif){ .glightbox data-gallery="t_top_mid" }
+
+![](images/inferno/t/top_mid/utility.avif){ .glightbox data-gallery="t_top_mid" }
+
+</div>  
+
+  Základním prvkem je smoke na long. Smoky, které dopadnou blízko se se příliš snadno spamují a rozbíjejí a pointou je získat prostor, takže čím dál smoke dopadne, tím lepší.  
+
+  * Long smoke:  
+  `left click throw`  
+  `setpos 848.960510 308.665283 106.963165;setang -37.905621 42.835117 0.000000`  
+
+  ![](images/inferno/t/top_mid/long_smoke.avif){ .glightbox }
+
+  Quad se dá velice snadno vypálit jak z midu, tak z boileru a protože na shortu se nedá za nic schovat, i "špatné" flashe, co dopadnou ke stěně za boiler vytlačí CT do pasivnějších pozic.  
+
+  * Quad molotov (top mid)
+
+  * Short flash (top mid)
+
+  * Quad molotov (boiler)
+
+  * Short flash (boiler)
+
 ### A
+
+  Ačko se dobývá primárně přes short. Na site se musí projít přes tvz. "zónou smrti".
+
+  ![](images/inferno/t/a/kill_zone.avif){ .glightbox }
+
+  CT můžou držet tolik různých poziček, že to prostě musíte poslat a doufat, že vás případně někdo tradne. Proto, dokud jsou všichni CT naživu, nemá smysl chodit přes long. Hlavní je dobýt site. Retake na Infernu není jednoduchý, takže trade na shortu, nebo jenom zabrání pozičky na Ačku/v pitu udělá mnohem víc, než lurk kill z longu.  
+  Dvě nejdůležitější věci jsou moto smoke a molotov do pitu.  
+
+  * Moto smoke  
+  `left click throw`  
+  `setpos 1010.614929 447.183289 112.232086;setang -37.993710 12.974021 0.000000`  
+
+  ![](images/inferno/t/a/moto_smoke.avif){ .glightbox }
+
+  * Pit molotov  
+  `running throw`
+  `setpos 1322.031860 230.793213 149.390625;setang -11.703787 -24.469584 0.000000`
+
+  ![](images/inferno/t/a/pit_molotov.avif){ .glightbox }
+
+  Další možná utilita, když nejdeme přes appy je:  
+
+  * Balcony molotov  
+  `jumpthrow`  
+  `setpos 1201.219727 587.968750 130.511703;setang -1.759999 -45.391571 0.000000`  
+
+  ![](images/inferno/t/a/balcony_molotov.avif){ .glightbox }
+
+  * Short flash  
+
+  Pokud ale už padl nějaký open frag/trade, situace se zásadně mění. CT už nejsou schopní efektivně pokrýt long a A site zároveň. Ve čtyřech na tp musí hrát pouze jednoho na B, ve třech už prostě musí něco pustit.  
+  Z toho důvodu umí být dost nepříjemný smoke mezi arch a knihovnu. Hrozba je, že projdeme na CT spawn, hráč co drží long je tedy v situaci, kdy potřebuje držet CT spawn, ale zároveň tím izoluje hráče na A, tudíž umí být velice efektivní fake hodit tenhle smoke a instantně walkovat na short.
+
+  ![](images/inferno/t/a/3v3.avif){ .glightbox }
+
+  * Long smoke  
+  `jumpthrow`
+  `setpos 1512.968750 909.958252 160.309341;setang -26.509966 165.786270 0.000000`
+
+  ![](images/inferno/t/a/3v3_smoke.avif){ .glightbox }
 
 ### B
 
@@ -93,13 +161,13 @@ Granáty:
   `middle click W jumpthrow`  
   `setpos 369.515747 1664.031250 146.453186;setang -13.662132 64.257309 0.000000`  
 
-  ![](images/inferno/t/b/ct_smoke.avif){ .glightbox data-gallery="b_default_util"}
+  ![](images/inferno/t/b/ct_smoke.avif){ .glightbox data-gallery="b_default_util" }
       
 * Coffin smoke:  
   `running jumpthrow`  
   `setpos 369.513367 1664.031250 146.453186;setang -1.518130 85.267334 0.000000` 
 
-  ![](images/inferno/t/b/coffin_smoke.avif){ .glightbox data-gallery="b_default_util"}
+  ![](images/inferno/t/b/coffin_smoke.avif){ .glightbox data-gallery="b_default_util" }
       
 * God flash:  
   Flashuje CT, coffiny a prakticky celý site. Ideální první flash  
@@ -107,14 +175,14 @@ Granáty:
   `left click throw`  
   `setpos 369.491302 1664.062744 146.453186;setang -30.139896 77.633858 0.000000`  
 
-  ![](images/inferno/t/b/god_flash.avif){ .glightbox data-gallery="b_default_util"}
+  ![](images/inferno/t/b/god_flash.avif){ .glightbox data-gallery="b_default_util" }
       
 * Entry flash:  
   Bouchá nad balkónkem, takže neflashne nikoho z banánu  
   `left click throw`  
   `setpos 393.742340 1707.774170 147.468765;setang -22.857903 58.273796 0.000000`  
 
-  ![](images/inferno/t/b/balcony_flash.avif){ .glightbox data-gallery="b_default_util"}
+  ![](images/inferno/t/b/balcony_flash.avif){ .glightbox data-gallery="b_default_util" }
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
   <iframe
@@ -132,19 +200,19 @@ Granáty:
   `left click throw`  
   `setpos 430.304230 1773.862915 240.000000;setang -18.457699 90.286758 0.000000`  
 
-  ![](images/inferno/t/b/coffin_smoke_deep.avif){ .glightbox data-gallery="halfwall_b_util"}
+  ![](images/inferno/t/b/coffin_smoke_deep.avif){ .glightbox data-gallery="halfwall_b_util" }
 
   `jumpthrow`  
   `setpos 430.304230 1773.862915 240.000000;setang 8.162273 86.414711 0.000000`  
 
-  ![](images/inferno/t/b/coffin_molotov.avif){ .glightbox data-gallery="halfwall_b_util"}
+  ![](images/inferno/t/b/coffin_molotov.avif){ .glightbox data-gallery="halfwall_b_util" }
 
 * Flash za fontánu  
   Bouchá za fontánou, takže musí být člověk až v poolu, aby ho to flashlo. Být na jedničce je furt ok  
   `left click throw`  
   `setpos 430.304230 1773.862915 240.000000;setang -15.267741 96.116951 0.000000`  
 
-  ![](images/inferno/t/b/fountain_flash.avif){ .glightbox data-gallery="halfwall_b_util"}
+  ![](images/inferno/t/b/fountain_flash.avif){ .glightbox data-gallery="halfwall_b_util" }
 
 ## CT
 
