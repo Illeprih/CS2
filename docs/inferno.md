@@ -1,5 +1,7 @@
 ## T
 
+Inferno má trochu netypický layout tím, že rotace nejsou přes mid a jsou celkově velice pomalé. Zároveň ale není úplně snadné dobýt sity - to z Inferna dělá jednu z mála map, kde umí být fake velice efektivní strategie.  
+
 ### Default
 
   Základní rozestavení je:
@@ -8,8 +10,8 @@
   * 1 rampa/underpass
   * 2 second mid
 
-  Pokud CT nehrají banán extrémně pasivně, tak se to v jednom získat nedá. Appy se taky v jednom moc nedají, nejde například kouknout k balkónu bez toho, aby nehrozil push z boileru a ideálně je to úhel, který se peekuje z obou stran.
-  Rampa je trochu nevděčná pozice, ale když chce někdo na fernu za Tčka hrát AWPčko, tak to má mít. Lepší je rovnou skákat do underpassu, ale zase záleží na tom, jestli CT hází granáty, anebo ne.
+  Pokud CT nehrají banán extrémně pasivně, tak se to v jednom získat nedá. Appy se taky v jednom moc nedají, nejde například kouknout k balkónu bez toho, aby nehrozil push z boileru a ideálně je to úhel, který se peekuje z obou stran.  
+  Rampa je trochu nevděčná pozice, ale když chce někdo na fernu za Tčka hrát AWPčko, tak to má mít. Lepší je rovnou skákat do underpassu, ale zase záleží na tom, jestli CT hází granáty, anebo ne.  
   Hlaví cíle jsou získat banán a zamezit agresi na second mid. Následně, když je banán pod kontrolou, chceme získat appy a top mid. Top mid má docela dlouhé a otevřené koridory, tudíž jsou CT nuceni hrát pasivněji; cíl tedy není proběhnout přes top mid na Ačko, ale vytlačit CT z top midu do silnějších pozic na situ.  
   Ideální setup by měl skončit například takhle:  
 
@@ -78,6 +80,52 @@
 
 #### Apps
 
+  Appy se nedají v jednom efektivně vyčistit, takže pokud není druhý hráč v okně, snažit se zabrat pozice v appech je dost riskantní, vždycky si můžete pokrýt buďto chodbu od balkónu, nebo boiler. Proto pokud jste tam solo, tak vám nezbyde než budťo držet schody, anebo nějaký off-angle ze second midu (dá se to držet z T appů, když jsou CT hodně agresivní, ale má to stejný problém, jako když držíte okno z mostu, jste prostě hrozně daleko od všeho).
+
+  ![](images/inferno/t/apps/apps_offangle.avif){ .glightbox }  
+
+  Pro CT je vyběhnout appy přes schody celkem nepříjemné. Pokud to vyběhnou, musí zkontrolovat spoustu úhlů na second midu, takže tohle je duel, který byste měli vždycky vyhrát. Zároveň vždycky uslyšíte, když skočí dolů z okna.  
+
+  Pokud chcete jít na schody, nespěchejte. Vždycky tam někdo může stát za rohem s vrtačkou. Lepší je to protít s pauzama postupně.  
+
+  Ve dvou pak jeden vyčistí boiler a následně oba chodbu od balkónu. Pokud to CT drží správně, tak se budou snažit to vykouknout na timing, takže to chvilku podržte. Jeden pak zůstává v appech a druhý jde do boileru pomoct s midem.  
+  (V boileru se snažte vždycky držet u stěny s midem. Vyhnete se tak off anglu z midu a zároveň pak máte lepší úhel na short)  
+
+  * Quad molotov  
+  `running throw`  
+  `setpos 1207.989258 217.128540 180.761261;setang -2.926031 59.061108 0.000000`  
+
+  ![](images/inferno/t/apps/quad_molotov.avif){ .glightbox data-gallery="t_apps_boiler }
+
+  * Short flash  
+  `left click throw`  
+  `setpos 1240.660889 223.595245 226.313324;setang 18.127991 69.866325 0.000000`  
+
+  ![](images/inferno/t/apps/short_flash.avif){ .glightbox data-gallery="t_apps_boiler }  
+
+  Z appů byste neměli jít na site jako první. Váš hlavní úkol by měl být vypálit pit a flashnout site, následně se ale spíš snažíte o případný refrag a zkontrolování beden na situ.  
+
+  * Pit molotov  
+  `crouch throw`  
+  `setpos 1567.772705 -377.959229 252.000000;setang -5.478065 23.604736 0.000000`  
+
+  ![](images/inferno/t/apps/pit_molotov.avif){ .glightbox data-gallery="t_apps_exec" }
+
+  * Site flash  
+  `crouch throw`  
+  `setpos 1567.772705 -377.959229 252.000000;setang -26.311995 -28.051134 0.000000`  
+
+  ![](images/inferno/t/apps/site_flash.avif){ .glightbox data-gallery="t_apps_exec" }
+
+  Když se zaseknete v appech a potřebujete vyjít site, dá se hodit lurk smoke, který vám umožní izolovat úhly z pitu a balkónu a zároveň můžete vyskočit na zábradlí a kouknut do situ, nebo na short. Ze zadní poloviny situ je vidět jenom hlava, takže když přijde na lámání chleba, tak můžete zkusit překvapit.  
+
+  * Lurk smoke  
+  `left click throw`  
+  `setpos 1608.421387 -274.562866 270.000000;setang -9.196028 -47.055454 0.000000`
+
+  ![](images/inferno/t/apps/lurk_smoke.avif){ .glightbox data-gallery="t_apps_lurk_smoke" }
+
+  ![](images/inferno/t/apps/lurk_smoke_ct.avif){ .glightbox data-gallery="t_apps_lurk_smoke" }
   
 
 #### Dobytí top midu
@@ -100,15 +148,20 @@
 
   ![](images/inferno/t/top_mid/long_smoke.avif){ .glightbox }
 
-  Quad se dá velice snadno vypálit jak z midu, tak z boileru a protože na shortu se nedá za nic schovat, i "špatné" flashe, co dopadnou ke stěně za boiler vytlačí CT do pasivnějších pozic.  
+  Quad se dá velice snadno vypálit jak z midu, tak z boileru a protože na shortu se nedá za nic schovat, tak i "špatné" flashe, co dopadnou ke stěně za boiler, vytlačí CT do pasivnějších pozic.  
 
-  * Quad molotov (top mid)
+  * Quad molotov
+  `running jumpthrow`  
+  `setpos 1103.470337 447.031250 119.670898;setang -21.801952 59.467880 0.000000`  
 
-  * Short flash (top mid)
+  ![](images/inferno/t/top_mid/quad_molotov.avif){ .glightbox }
 
-  * Quad molotov (boiler)
+  * Short flash  
+  Není potřeba aby byl nějak přesný, cokoliv co padá ke stěně za boiler je ok
+  `left click throw`  
+  `setpos 1075.9464111328125 587.9678955078125 121.976715; setang -18.1501 -35.59192`  
 
-  * Short flash (boiler)
+  ![](images/inferno/t/top_mid/short_flash.avif){ .glightbox }
 
 ### A
 
@@ -126,12 +179,13 @@
   ![](images/inferno/t/a/moto_smoke.avif){ .glightbox }
 
   * Pit molotov  
+  Ne vždycky dohoří až úplně do rohu, ale CT tam chytá flashe, takže to nijak extra nevadí, důležitější je aby se tam CT nemohlo schovávat. Některé profesionální teamy, z toho důvodu, hází podobný molotov i z appů.
   `running throw`
   `setpos 1322.031860 230.793213 149.390625;setang -11.703787 -24.469584 0.000000`
 
   ![](images/inferno/t/a/pit_molotov.avif){ .glightbox }
 
-  Další možná utilita, když nejdeme přes appy je:  
+  Další možná utilita je:  
 
   * Balcony molotov  
   `jumpthrow`  
@@ -139,7 +193,11 @@
 
   ![](images/inferno/t/a/balcony_molotov.avif){ .glightbox }
 
-  * Short flash  
+  * Site flash  
+  `left click throw`  
+  `setpos 1322.069946 250.357101 144.046875;setang -15.114158 -29.917601 0.000000`  
+
+  ![](images/inferno/t/a/site_flash.avif){ .glightbox }
 
   Pokud ale už padl nějaký open frag/trade, situace se zásadně mění. CT už nejsou schopní efektivně pokrýt long a A site zároveň. Ve čtyřech na tp musí hrát pouze jednoho na B, ve třech už prostě musí něco pustit.  
   Z toho důvodu umí být dost nepříjemný smoke mezi arch a knihovnu. Hrozba je, že projdeme na CT spawn, hráč co drží long je tedy v situaci, kdy potřebuje držet CT spawn, ale zároveň tím izoluje hráče na A, tudíž umí být velice efektivní fake hodit tenhle smoke a instantně walkovat na short.
@@ -154,22 +212,22 @@
 
 ### B
 
-Granáty:
+  Execute na B hodně záleží na infu z banánu. Čím méně granátů CT mají, tím méně toho můžou udělat proti rozhození Bčka. Zároveň, protože "základní granáty" může hodit jeden hráč z relativně bezpečné pozice, tak umí být relative efektivní B fake. Inferno má dost pomalé rotace, takže CT jsou často nuceni rotovat brzo a tudíž Tčka můžou čekat na top midu a čekat na rotaci, když jeden rozhodí Bčko z banánu.
 
-* CT smoke  
+  * CT smoke  
   Padá na boost, takže se dá bezpečně vyskočit na jedničku, což je dobrý off-angle na trojku a celkově dobrá pozice na trade  
   `middle click W jumpthrow`  
   `setpos 369.515747 1664.031250 146.453186;setang -13.662132 64.257309 0.000000`  
 
   ![](images/inferno/t/b/ct_smoke.avif){ .glightbox data-gallery="b_default_util" }
       
-* Coffin smoke:  
+  * Coffin smoke  
   `running jumpthrow`  
   `setpos 369.513367 1664.031250 146.453186;setang -1.518130 85.267334 0.000000` 
 
   ![](images/inferno/t/b/coffin_smoke.avif){ .glightbox data-gallery="b_default_util" }
       
-* God flash:  
+  * God flash  
   Flashuje CT, coffiny a prakticky celý site. Ideální první flash  
 
   `left click throw`  
@@ -177,7 +235,7 @@ Granáty:
 
   ![](images/inferno/t/b/god_flash.avif){ .glightbox data-gallery="b_default_util" }
       
-* Entry flash:  
+  * Entry flash  
   Bouchá nad balkónkem, takže neflashne nikoho z banánu  
   `left click throw`  
   `setpos 393.742340 1707.774170 147.468765;setang -22.857903 58.273796 0.000000`  
@@ -195,8 +253,9 @@ Granáty:
   </iframe>
 </div>
 
-* Smoke a molotov na coffiny  
-  Vyžaduje více granátů, ale smoke dopadne až za coffiny, takže se pak dá snáze bojovat o kostel  
+  Alternativně se dá smoke hodit hlouběji do kostela a na coffiny molotov a následně kostel dobýt a nehrát post-plant jenom ze situ.
+
+  * Smoke a molotov na coffiny  
   `left click throw`  
   `setpos 430.304230 1773.862915 240.000000;setang -18.457699 90.286758 0.000000`  
 
@@ -207,13 +266,36 @@ Granáty:
 
   ![](images/inferno/t/b/coffin_molotov.avif){ .glightbox data-gallery="halfwall_b_util" }
 
-* Flash za fontánu  
+  * Flash za fontánu  
   Bouchá za fontánou, takže musí být člověk až v poolu, aby ho to flashlo. Být na jedničce je furt ok  
   `left click throw`  
   `setpos 430.304230 1773.862915 240.000000;setang -15.267741 96.116951 0.000000`  
 
   ![](images/inferno/t/b/fountain_flash.avif){ .glightbox data-gallery="halfwall_b_util" }
 
+  Až na kostel se to dá hodit i od dřeva, ale je to o trochu horší pozička. Varianta pro to, když vám příliš vadí Tčko vyhozené na zídce.
+
+  * CT smoke  
+
+  `left click throw`  
+  `setpos 120.585464 1593.889404 119.996689;setang -33.153034 59.036907 0.000000`  
+
+  ![](images/inferno/t/b/ct_smoke_alt.avif){ .glightbox data-gallery="b_default_alternative" }
+
+  * God flash  
+
+  `jumpthrow`  
+  `setpos 120.585464 1593.889404 119.996689;setang -1.429045 63.656868 0.000000`  
+
+  ![](images/inferno/t/b/god_flash_alt.avif){ .glightbox data-gallery="b_default_alternative" }
+
+  * Entry flash  
+
+  `w jumpthrow`  
+  `setpos 120.585464 1593.889404 119.996689;setang 2.068954 49.444851 0.000000`  
+
+  ![](images/inferno/t/b/entry_flash_alt.avif){ .glightbox data-gallery="b_default_alternative" }
+  
 ## CT
 
 ### Default
