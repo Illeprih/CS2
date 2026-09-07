@@ -14,3 +14,9 @@
         grid-template-columns: 1fr;
     }
 }
+
+.grenade-h {
+    font-size: inherit !important;
+    font-weight: inherit !important;
+    margin-top: 1em;
+}
