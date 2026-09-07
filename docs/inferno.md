@@ -36,7 +36,7 @@ Inferno má trochu netypický layout tím, že rotace nejsou přes mid a jsou ce
   ![](images/inferno/t/banana/wrong_sandbag_peek_2.avif){ .glightbox data-gallery="wrong_sandbag_peek" }
 
   
-  Celkově se u auta není dobrý extra zdržovat, dá se tam hodit spousta granátů, flashů atd., lepší je zůstávat spíš u zíďky, nebo vyhodit někoho nahoru. To je jednak dobrý off-angle a jednak ta malá stříška blokuje většinu flashů, takže když chtějí CT získat zpět banán, je velká pravděpodobnost, že to CT vyběhne s flashem ze široka a nebude vás tam čekat.  
+  Celkově se u auta není dobrý extra zdržovat, dá se tam hodit spousta granátů, flashů atd., lepší je zůstávat spíš u zídky, nebo vyhodit někoho nahoru. To je jednak dobrý off-angle a jednak ta malá stříška blokuje většinu flashů, takže když chtějí CT získat zpět banán, je velká pravděpodobnost, že to CT vyběhne s flashem ze široka a nebude vás tam čekat.  
 
   ![](images/inferno/t/banana/halfwall_boost_peek.avif){ .glightbox data-gallery="halfwall_peek" }
 
@@ -436,7 +436,7 @@ Inferno má trochu netypický layout tím, že rotace nejsou přes mid a jsou ce
 
   ![](images/inferno/ct/b/deep_banana_smoke.avif){ .glightbox data-gallery="ct_b_banana_default_take" }
 
-  Následně flashne za zíďku:  
+  Následně flashne za zídku:  
   `left click throw`  
   `setpos 737.898376 2222.256592 150.000046;setang -9.570047 -122.019066 0.000000`  
 
@@ -459,7 +459,7 @@ Inferno má trochu netypický layout tím, že rotace nejsou přes mid a jsou ce
 ##### Boj o banán ve třech
   Ve třech se dá banán vzít ještě o něco více agresivně a s méně granáty. Nevýhodou je, že je k tomu potřeba smoke ze spawnu (jinak tam není dost brzy), takže je potřeba koordinace čtyř hráčů.
 
-###### Smoke na spodní banán  { .grenade-h }
+###### Bottom banana smoke (instant)  { .grenade-h }
   `jumpthrow`  
   `setpos 2035.968750 1914.937744 151.570160;setang -38.565929 -158.704102 0.000000`  
 
@@ -472,7 +472,7 @@ Inferno má trochu netypický layout tím, že rotace nejsou přes mid a jsou ce
 
   ![](images/inferno/ct/b/brooms_molotov.avif){ .glightbox }
   
-  A následně vyběhne od zíďky.  
+  A následně vyběhne od zídky.  
   
 ###### 2. spawn
   Druhý hráč hází granát:  
@@ -487,7 +487,7 @@ Inferno má trochu netypický layout tím, že rotace nejsou přes mid a jsou ce
 
   ![](images/inferno/ct/b/furia_smoke.avif){ .glightbox data-gallery="ct_b_fast_util" }
   
-  A také vyběhne banán. Je lepší také vyběhnout k zíďce, ale dá se to vzít i od auta  
+  A také vyběhne banán. Je lepší také vyběhnout k zídce, ale dá se to vzít i od auta  
   
 ###### 3. spawn
   Třetí pouze hází flashe:  
@@ -536,7 +536,7 @@ Inferno má trochu netypický layout tím, že rotace nejsou přes mid a jsou ce
 
   Nevýhodou tohohle setupu je, že jsou potřeba dva smoky místo jednoho, takže po zabrání banánu nezbývá smoke pro hráče, co zůstává na Béčku; to se ale dá vyřešit tím, že se hodí top banana smoke rovnou ze spawnu, aby měli Béčkaři tři smoky místo dvou.
 
-###### Bottom banana smoke (instant)  { .grenade-h }
+###### Top banana smoke (instant)  { .grenade-h }
   `jumpthrow`  
   `setpos 2397.000000 2079.000000 146.611298;setang -42.283947 -178.205856 0.000000`  
 
@@ -604,6 +604,6 @@ Inferno má trochu netypický layout tím, že rotace nejsou přes mid a jsou ce
   `running jumpthrow`  
   `setpos 964.177856 2779.937500 146.371872;setang 4.751979 -118.618607 0.000000`  
 
-  ![](images/inferno/ct/b/half_wall_nade.avif){ .glightbox data-gallery="banana_retake" }
+  ![](images/inferno/ct/b/half_wall_nade.avif){ .glightbox }
   
 ##### Hra ze situ
