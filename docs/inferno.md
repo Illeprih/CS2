@@ -25,6 +25,14 @@ Inferno má trochu netypický layout tím, že rotace nejsou přes mid a jsou ce
   ![](images/inferno/t/banana/car_molotov.avif){ .glightbox }
 
   Většina lidí má tendenci házet granáty spíš za dřeva, takže je na začátku lepší stát spíš na pravé straně, než za barely.  
+
+###### Half-wall flash { .grenade-h }
+  Pokud jste na pravé straně banánu, tak se ani nemusíte otáčet protože dopadne těsně pod horní hranu zídky. CT na rohu má čas se otočit, ale jinak flashuje všechny úhly, co hlídají zídku.  
+  `left click throw`  
+  `setpos 69.041817 960.460449 96.700684;setang -18.259981 69.029831 0.00000`  
+
+  ![](images/inferno/t/banana/half-wall_flash.avif){ .glightbox }
+  
   Pokud chcete zapálit sandbag, je to potřeba házet co nejvíce na roh, jinak to nedohoří až úplně do rohu a to CT tam za tím není moc vidět.  
 
   ![](images/inferno/t/banana/sandbag_molotov.avif){ .glightbox }
@@ -36,7 +44,7 @@ Inferno má trochu netypický layout tím, že rotace nejsou přes mid a jsou ce
   ![](images/inferno/t/banana/wrong_sandbag_peek_2.avif){ .glightbox data-gallery="wrong_sandbag_peek" }
 
   
-  Celkově se u auta není dobrý extra zdržovat, dá se tam hodit spousta granátů, flashů atd., lepší je zůstávat spíš u zídky, nebo vyhodit někoho nahoru. To je jednak dobrý off-angle a jednak ta malá stříška blokuje většinu flashů, takže když chtějí CT získat zpět banán, je velká pravděpodobnost, že to CT vyběhne s flashem ze široka a nebude vás tam čekat.  
+  Celkově se u auta není dobrý extra zdržovat, dá se tam hodit spousta granátů, flashů atd., lepší je zůstávat spíš uky, nebo vyhodit někoho nahoru. To je jednak dobrý off-angle a jednak ta malá stříška blokuje většinu flashů, takže když chtějí CT získat zpět banán, je velká pravděpodobnost, že to CT vyběhne s flashem ze široka a nebude vás tam čekat.  
 
   ![](images/inferno/t/banana/halfwall_boost_peek.avif){ .glightbox data-gallery="halfwall_peek" }
 
@@ -80,8 +88,8 @@ Inferno má trochu netypický layout tím, že rotace nejsou přes mid a jsou ce
 
   Pokud CT hrají mid hodně agresivně, dá se hodit smoke na top mid. Tenhle konkrétní má výhodu v tom, že se dá rozbít granátem k boileru, nebo na long tak, že rozbije pouze jednu stranu. Zároveň to může být varianta pro eco/force buy.  
 ###### Mid lurk smoke  { .grenade-h }
-  `jumpthrow`  
-  `setpos -935.582703 584.386047 -20.946472;setang -13.133948 -1.318796 0.000000`  
+  `running jumpthrow`  
+  `setpos -1062.723145 575.928467 -49.921387;setang -5.631995 -1.502048 0.000000`  
 
   ![](images/inferno/t/top_mid_smoke.avif){ .glightbox }
 
@@ -322,11 +330,12 @@ Inferno má trochu netypický layout tím, že rotace nejsou přes mid a jsou ce
 ## CT
 
 ### Default
-  Celý setup se točí okolo banánu. Vždycky je potřeba mít kontrolu na jedné straně mapy. Buďto na banánu, nebo na top midu. Když jsou Tčka na banánu, tak CT chtějí držet top mid, případně appy, když CT kontrolují banán, tak chtějí CT na Ačku hrát passivně ze situ a na info.
+  Celý setup se točí okolo banánu. Vždycky je potřeba mít kontrolu na jedné straně mapy. Buďto na banánu, nebo na top midu. Když jsou Tčka na banánu, tak CT chtějí držet top mid - případně appy, když CT kontrolují banán, tak chtějí CT na Ačku hrát passivně ze situ a na info.
 
 ### A
   Hlavní problém top midu je v tom, že se prostě nemáte kam schovat. Pokud si Tčka smoknou jednu stranu, flashnout druhou a vyběhnou to ve čtyřech, tak tam prostě nemáte jak přežít. Proto se top mid drží v případě, že víte, že máte alespoň 2 Tčka na banánu, anebo musíte být připraveni při první známce odporu utíkat do situ, kde máte mnohem silnejší pozičky.  
-  Pokud začínáte 3 na A, dá se překvapit nějakou agresí například na second mid, ale pointa je získat jeden kill a zase ztáhnout zpátky na top mid/site. Second mid má příliš mnoho poziček, které musíte zkontrolovat a nejsou tam žádné dobré pozice na to, abyste to dlouhodobě drželi, takže pushovat z Ačka prakticky nemá smysl, pokud jsi nejste stoprocentně jistí, že jsou všichni na banánu.
+  Pokud začínáte 3 na A, dá se překvapit nějakou agresí například na second mid, ale pointa je získat jeden kill a zase ztáhnout zpátky na top mid/site. Second mid má příliš mnoho poziček, které musíte zkontrolovat a nejsou tam žádné dobré pozice na to, abyste to dlouhodobě drželi, takže pushovat z Ačka prakticky nemá smysl, pokud jsi nejste stoprocentně jistí, že jsou všichni na banánu.  
+  Není výjimkou, že na A začínají pouze dva hráči. Proto je jejich cílem pouze blokovat rushe pomocí granátů. V těchhle případech se CT snaží agresivně dobýt banán a zrotovat zpátky, takže nečekáte pouze na třetího, ale i na čtvrtého.
 
 #### Site crossfires
   Prakticky každý crossfire na Ačku se bude točit okolo téhle zóny:
@@ -349,7 +358,7 @@ Inferno má trochu netypický layout tím, že rotace nejsou přes mid a jsou ce
   ![](images/inferno/ct/a/balcony_site_site.avif){ .glightbox data-gallery="balcony_site" }
 
 ##### Truck + Site
-  Trochu agresivnější setup, který ale má výhodu v tom, že ignoruje většinu flashů, co můžou Tčka házet.
+  Trochu agresivnější setup, který ale má výhodu v tom, že ignoruje většinu flashů, co můžou Tčka házet. Nevýhodou je, že hráč za autem, i když se schová, má kontakt dřív, než mu může hráč ze situ pomoct. Proto je odkázaný na flash, aby měl dobrý repeek a zároveň měl příležitost utéct do small pitu.
 
   ![](images/inferno/ct/a/truck_site.avif){ .glightbox data-gallery="truck_site" }
 
@@ -372,11 +381,11 @@ Inferno má trochu netypický layout tím, že rotace nejsou přes mid a jsou ce
 
   ![](images/inferno/ct/a/pit_site.avif){ .glightbox data-gallery="pit_site" }
 
-  Hráč v pitu primárně drží cross na site. Je potřeba mít smoke, protože je pravděpodobné, že se vás Tčka pokusí vypálit. Důležité je nehrát z pitu moc agresivně, protože dokud jste na živu, tak je pro Tčka extrémně nepříjemné se pokoušet plantovat. A i když plantnou v situ, tak mají mnohem náročnější post plant.
+  Hráč v pitu primárně drží cross na site. Je potřeba mít smoke, protože je pravděpodobné, že se vás Tčka pokusí vypálit. Důležité je nehrát z pitu moc agresivně, protože dokud jste na živu, tak je pro Tčka extrémně nepříjemné se pokoušet plantovat. A i když plantnou v situ, tak se nemají kam schovat a tudíž mnohem náročnější post plant.
 
   ![](images/inferno/ct/a/pit_site_pit.avif){ .glightbox data-gallery="pit_site" }
 
-  Hráč na situ drží balkón.
+  Hráč na situ drží balkón. Je důležité nekoukat přímo do appů, protože z pitu se pak nedá swingout na kontakt.
 
   ![](images/inferno/ct/a/balcony_site_site.avif){ .glightbox data-gallery="pit_site" }
 
@@ -388,7 +397,7 @@ Inferno má trochu netypický layout tím, že rotace nejsou přes mid a jsou ce
 
 ##### Boj o banán
 
-  Asi nejčastější strategie hodit utilitu na zastavení případného rushe a následně smoknout spodek banánu a vyčistit ho.  
+  Asi nejčastější strategie je hodit utilitu na zastavení případného rushe a následně smoknout spodek banánu a vyčistit ho.  
 
 ###### 1. spawn
   Prací prvního hráče je zastavit rush. Proto hází granát:  
@@ -481,7 +490,7 @@ Inferno má trochu netypický layout tím, že rotace nejsou přes mid a jsou ce
 
   ![](images/inferno/ct/b/banana_nade.avif){ .glightbox data-gallery="ct_b_fast_util" }
   
-  "FURIA" smoke: (Blokuje molotovy za auto. Zároveň když přijde na lámání chleba, tak se přes něj dá spíš utéct zpátky k situ)  
+  "FURIA" smoke: (Blokuje molotovy za auto. Zároveň když přijde na lámání chleba, tak se přes něj dá utéct zpátky k situ)  
   `running throw`  
   `setpos 802.729797 2276.606445 150.000214;setang 14.124146 -111.772499 0.000000`  
 
@@ -542,6 +551,47 @@ Inferno má trochu netypický layout tím, že rotace nejsou přes mid a jsou ce
 
   ![](images/inferno/ct/b/top_banana_smoke_instant.avif){ .glightbox }
 
+##### Semi-pasivní setup
+  Setup který závisí na smoku od hráče z Ačka, jinak je asi nejsilnější, co se dá hrát. Pointou je hodit smoke ke dřevům a molotov za zídku. CT tudíž můžou zabrat auto a až skončí smoke, vyčistit i spodní banán.
+
+###### Logs smoke (instant)  { .grenade-h }
+  `jumpthrow`  
+  `setpos 2154.030518 1914.964355 152.466156;setang -30.623861 -168.000275 0.000000`
+
+  ![](images/inferno/ct/b/logs_smoke_instant.avif){ .glightbox }
+
+  První hráč pak nehází granát, ale jenom molotov.
+
+###### Default banana molotov  { .grenade-h }
+  `running throw`  
+  `setpos 778.080017 2121.853516 150.000061;setang 4.752096 -160.013458 0.000000`  
+
+  ![](images/inferno/ct/b/top_banana_molo.avif){ .glightbox }
+
+  Obvlášť poprvé je pravděpodobné, že někdo bude za dřevem nebo na brooms. Proto je dobré nechat si granáty a následně hodit dva na jednu, nebo druhou stranu.  
+  Následně je potřeba trochu odhadnout timing na to, kdy končí smoke, ideální je, aby smoke a molotov dopadly ještě předtím než skončí smoke u dřeva.  
+
+###### Bottom banana smoke  { .grenade-h }
+  `running left click throw`  
+  `setpos 758.618042 2254.303711 150.000214;setang -7.260059 -124.373154 0.000000`  
+
+  ![](images/inferno/ct/b/deep_banana_smoke.avif){ .glightbox data-gallery="ct_b_banana_logs_smoke_take" }
+
+###### Brooms molotov  { .grenade-h }
+  `running left click throw`  
+  `setpos 783.475220 2176.897949 150.000046;setang -11.968094 -139.113510 0.000000`  
+
+  ![](images/inferno/ct/b/brooms_nade.avif){ .glightbox data-gallery="ct_b_banana_logs_smoke_take" }
+
+  V ideálním případě to může první hráč pushnout za smoke, aby měl dobrý angle a mohl si callnout flash přesně jak bude smoke končit.  
+  Flash dopadne za dřeva, takže se ani nemusí otáčet.
+
+###### Logs flash { .grenade-h }
+  `left click throw`  
+  `setpos 700.069946 2150.919922 150.000061;setang -10.096957 -134.535568 0.000000`
+
+  ![](images/inferno/ct/b/logs_flash.avif){ .glightbox data-gallery="ct_b_banana_logs_smoke_take" }
+
 ##### Retake banánu
   Další variantou je nechat si Tčka myslet, že můžou získat auto a chytit je, když se snaží zabrat pozičky.  Na začátek je potřeba hodit granát a molotov jako u defaultu. Jednak aby Tčka nemohli rushnout banán a jednak aby nevěděli, co se na ně chystá.  
 
@@ -583,7 +633,7 @@ Inferno má trochu netypický layout tím, že rotace nejsou přes mid a jsou ce
 
   Při správném načasování budou Tčka vybíhat ze smoku, do molotovu a do flashe. Jediné na co je potřeba si dát pozor jsou tyhle dvě pozičky, kde Tčka nebudou hořet.  
 
-  ![](images/inferno/ct/b/banana_retake.avif){ .glightbox }
+  ![](images/inferno/ct/b/banana_retake.avif){ .glightbox data-gallery="banana_retake" }
 
   V praxi by to mělo vypadat takhle:
 
@@ -605,5 +655,22 @@ Inferno má trochu netypický layout tím, že rotace nejsou přes mid a jsou ce
   `setpos 964.177856 2779.937500 146.371872;setang 4.751979 -118.618607 0.000000`  
 
   ![](images/inferno/ct/b/half_wall_nade.avif){ .glightbox }
+
+##### Solo banana
+  Po dobytí banánu bude druhý hráč rotovat na Ačko. Rotace je ale pomalé, takže je lepší hrát pasivní úhly a spíše zdržovat, než vyhledávat duely. Zároveň bych nedoporučil držet to zespodu, protože když vás tradnou, zbytek teamu prostě nestihne zrotovat a Bčko padne.
+
+  ![](images/inferno/ct/b/solo_banana_rotation.avif){ .glightbox }
+
+  Dokud je na banánu smoke, dobrý angle je nahoře na autě. Jednak je nepravděpodobné, že vás tam někdo bude spamovat a zároveň vás netrefí standardní banana flashe.
+
+  ![](images/inferno/ct/b/solo_banana_smoke_hold.avif){ .glightbox }
+
+  Dost často si chcete smoke nechat, abyste mohli blokovat případný push, takže místo resmokovaní spodního banánu můžete jumpotovat buďto za autem
+
+  ![](images/inferno/ct/b/solo_banana_car_jumpspot.avif){ .glightbox }
+
+  Nebo na pixel angle a zídkou.
+
+  ![](images/inferno/ct/b/solo_banana_pixel_jumpspot.avif){ .glightbox }
   
 ##### Hra ze situ
