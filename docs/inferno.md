@@ -70,8 +70,7 @@ Inferno má trochu netypický layout tím, že rotace nejsou přes mid a jsou ce
 
 ###### Car smoke  { .grenade-h }
   `w jumpthrow`  
-  `setpos -1362.451904 141.031906 -50.000000;setang -46.969734 40.215946 0.000000
-  noclip ON`  
+  `setpos -1362.451904 141.031906 -50.000000;setang -46.969734 40.215946 0.000000`  
 
   ![](images/inferno/t/banana/car_smoke.avif){ .glightbox data-gallery="t_banana_late_take}
 
